@@ -1,0 +1,3 @@
+sudo python /home/pi/Desktop/DataGather/kuru/mqttcn.py &
+echo data collector script starting now...
+

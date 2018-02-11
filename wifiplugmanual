@@ -1,0 +1,12 @@
+wifi plug uses TDDP protocol and TP-link smart home protocol.so to decrypt and encrypt the data wifiplug.sh is used.
+
+scan.sh is to get the devices connected to the wifi with specific   mac address and it is stored in device_list.txt
+
+publishwifiplug.py will combine all theese and publish to wifiplug on/off the received data from the server
+
+data to be subscribed
+plug_1_on
+plug_1_off
+plug_2_on
+plug_2_off
+devicetype_deviceID_action
